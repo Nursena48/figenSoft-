@@ -1,0 +1,532 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family:  'Montserrat', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 100px 0;
+    background-color:#141439;
+}
+
+.section_title{
+    margin-bottom:30px;
+}
+
+.section_title h2{
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: all .5s ease-in-out;
+}
+
+.section_title h2:hover{
+    background-color: white ;
+    color: black;
+}
+
+/*HEADER*/
+
+header{
+    background: #fff;
+    border-bottom: 1px solid rgb(225, 225, 220);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.menubar{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+}
+
+.nav_links{
+    display: flex;
+    
+}
+
+.nav_links li a{
+    margin-left: 10px;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.nav_links li a:hover{
+    background-color: #98d240;
+}
+
+.logo h2 a{
+    color: white;
+    text-transform: upper;
+
+}
+
+/* ANASAYFA */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.inner_anasayfa{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.inner_anasayfa .inner_inner_anasayfa{
+
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 70%;
+
+}
+
+.inner_anasayfa .inner_inner_anasayfa .inner_anasayfa-img{
+    /* margin-right: 0.5rem; */
+    position: relative;
+    width:400px;
+}
+
+
+.inner_anasayfa .inner_inner_anasayfa .child_anasayfa{
+    flex-basis: 50%;
+}
+.inner_anasayfa .inner_inner_anasayfa .child_anasayfa .title h1{
+    font-size: 2rem;
+    padding-top: 9rem;
+    color: #f9dd3d	;
+}
+
+.inner_anasayfa .inner_inner_anasayfa .child_anasayfa .title_left h1{
+    font-size: 3rem;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    color: #f9dd3d;
+}
+.inner_anasayfa .inner_inner_anasayfa .child_anasayfa .span_child{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    font-size: 1.5rem;
+    color: azure;
+}
+
+.inner_anasayfa .inner_inner_anasayfa .child_anasayfa .span_child_small{
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    /* padding-right: 1rem; */
+    font-size: 1rem;
+    color: azure;
+}
+.inner_anasayfa .inner_inner_anasayfa .child_anasayfa .span_child_small_right{
+    /* padding-top: 1rem; */
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    color: azure;
+}
+.inner_anasayfa .inner_inner_anasayfa .child_anasayfa .btn{
+    background-color: #98d240;
+    padding: 12px 25px;
+    border-radius: 20px;
+    color: black;
+    border: 1px solid white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.inner_anasayfa .inner_inner_anasayfa .child_anasayfa .btn:hover{
+    background-color: transparent;
+    color: #98d240;
+    border: 1px solid #98d240; 
+}
+
+.inner_anasayfa .motto{
+    background-color: #98d240;
+    padding: 100px 0;
+    clear: both;
+    display: flex;
+    height: 100px;
+    overflow: visible;
+    width: 100%; 
+    margin: 0 auto;
+    font-weight: initial;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.inner_anasayfa .motto .motto-left{
+    float: left;
+    color: #d7d7d3;
+    font-size: 38px;
+    line-height: 56px;
+    margin-right: 40px;
+    margin-left: -16px;
+}
+
+.inner_anasayfa .motto .jsf-image{
+   
+    /* width: 500px; */
+    height: 120px;
+    aspect-ratio:  1;
+}
+
+.inner_anasayfa .motto .motto-right{
+    float: right;
+    font-size: 48px;
+    line-height: 56px;
+    color:#f5f4ed;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 24px;
+}
+ 
+
+
+/*1*/
+.inner_anasayfa1{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.inner_anasayfa1 .inner_inner_anasayfa1{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.inner_anasayfa1 .inner_inner_anasayfa1 .inner_anasayfa-img1{
+    /* margin-right: 0.5rem; */
+    position: relative;
+    width:500px;
+}
+
+
+.inner_anasayfa .inner_inner_anasayfa .child_anasayfa{
+    flex-basis: 50%;
+}
+.inner_anasayfa .inner_inner_anasayfa .child_anasayfa .title h1{
+    font-size: 3rem;
+    color: #f9dd3d;
+}
+.inner_anasayfa .inner_inner_anasayfa .child_anasayfa .span_child{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    color: azure;
+}
+
+
+
+/* Neden Figensoft */
+
+.innerfigensoft{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;  
+}
+
+.innerfigensoft_child{
+    height: 110px;
+    flex-basis: 20%;
+    color: #fff;
+    padding: 25px 20px;
+    background-color: #98d240;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all .5s ease-in;
+}
+.innerfigensoft_child:hover{
+    border: 2px solid #f9dd3d ;
+    color: #141439;
+}
+
+.innerfigensoft_child .icon{
+    font-size: 25px;
+    color:#1e1e91
+    
+}
+
+.innerfigensoft_child h3{
+    font-size: 20px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.block{
+    background: ;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.block .lider p{
+    color: black;
+    font-size: x-large;
+    font-weight: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* OFİSLERİMİZ */
+
+.inner_office{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.child_office{
+    flex-basis: 24%;
+    color: white;
+    padding: 20px 10px 20px 10px;
+    border: 1px solid transparent;
+    transition: .3s;
+    border-radius: 5px;
+}
+
+.child_office:hover{
+    border: 1px solid #98d240 ;
+}
+
+.child_office .office_name h3{
+      text-align: center;
+      padding-top: 1rem;
+}
+
+/* İLETİŞİM */
+
+
+
+.inner_iletisim .inner_yurt{
+    background-color: #141439;
+    display: flex;
+    flex-direction: row;
+
+}
+.renk{
+    color: #f9dd3d;
+}
+
+
+/* yurtiçi */
+.inner_iletisim .inner_yurtici {
+    width: 100%;
+}
+
+.inner_iletisim .inner_yurtici h3.yurt_içi_baslık{
+    background-color: #98d240;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    padding: 1rem;
+}
+
+.inner_iletisim .inner_yurtici h3{
+    background-color: #f9dd3d;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    padding: 0.5rem;
+    border: 2px solid #141439;
+}
+
+.inner_iletisim .inner_yurtici .inner_ofisler {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color:white;
+    background-color: #141439;
+}
+
+/* yurtdışı */
+ .inner_iletisim .inner_yurtdisi {
+    width: 100%; }
+
+ .inner_iletisim .inner_yurtdisi h3.yurt_disi_baslık{
+    background-color: #98d240;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    padding: 1rem;
+}
+
+.inner_iletisim .inner_yurtdisi h3{
+    background-color: #f9dd3d;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    padding: 0.5rem;
+    border: 2px solid #141439;
+}
+
+.inner_iletisim .inner_yurtdisi .inner_ofisler {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: white;
+    background-color: #141439;
+}
+
+/* form */
+
+.container{
+    background-color: #f9dd3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    
+}
+
+.container .content{
+    display: flex;   
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .content .left-side{
+    width:25%;
+    height: 100%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+    
+}
+.container .content .left-side:before{
+     content: '';
+     position: absolute;
+     height: 80%;
+     width: 2px;
+     right: -15px;
+     top:50%;
+     transform: translateY(-50%);
+}
+.container .content .left-side .details{
+    margin: 15px;
+    text-align: center;
+}
+.container .content .left-side i{
+    font-size: 20px;
+    color:#141439;
+    margin-bottom: 10px;
+}
+.container .content .left-side .details .topic{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container .content .right-side{
+    width: 75%;
+    margin-left: 75px;
+}
+.container .content .right-side .topic-text{
+    font-size: 22px;
+    font-weight: 600;
+    color:#141439;
+    
+}
+
+.container .content .right-side .input-box{
+    height: 20px; 
+    margin-top:10px ;
+}
+
+.container .content .right-side .input-box .form-control{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    /* padding: 1px 1px; */
+    resize: none;
+}
+.container .content .message-box{
+    min-height: 110px;
+}
+
+.container .content .right-side .button{
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+
+.container .content .right-side .button input{
+    color: #fff;
+    font-size: 10px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: #141439;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.container .content .right-side .button input:hover{
+    background-color: #1e1e91;
+}
+
+.form-control{
+    width: 100%;
+    padding: 0.5rem;
+
+}
+
+

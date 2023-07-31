@@ -1,0 +1,25 @@
+@media screen and (max-width:770px){
+
+    .navbar{
+        width: 90%;
+    }
+
+    .logo img{
+        font-size: 20px;
+    }
+
+    .menu_bar{
+        display: grid;
+        color: white;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        border: 1px solid white;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
